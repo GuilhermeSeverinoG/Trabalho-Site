@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    margin: 10% auto 0px auto;
+}
+form>p{
+    font-size: 25px;
+    margin: auto;
+}
+input[type=text],input[type=number],select{
+    padding: 10px;
+    font-size: 16px;
+}
+input[type=submit]{
+    background-color: #7CFC00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type=submit]:hover {
+    background-color: #65ca00;
+}
+input[type=file] {
+    display: none;
+}
+#botao-imagem{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}

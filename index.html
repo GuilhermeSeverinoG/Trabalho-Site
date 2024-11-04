@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <form method="post" action="php/login.php">
+        <h1 id="headline">Bem-vindo(a)</h1>
+        <h2 id="subheadline">Insira seus dados de acesso</h2>
+        <div id="formulario-conteudo">
+          <label class="label" for="email">Nome de usuário</label>
+          <i class="bx bxs-user"></i>
+          <input name="nome_usuario"class="input" type="text" placeholder="Nome" autocomplete="off">
+          <label class="label" for="password">Senha</label>
+          <i class="bx bxs-key"></i>
+          <input name="senha_usuario" class="input" type="password" placeholder="Sua senha">
+          <a id="link" href="cadastroUsuario.php">Não está cadastrado?</a>
+          <input type="submit" value="Login">
+       </div>
+      </form>
+    </main>
+  </body>
+</html>

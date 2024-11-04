@@ -1,0 +1,45 @@
+body{
+    background-color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 60%;
+    color: white;
+    font-size: 15px;
+    border: 1px solid #373737;
+    background-color: #202020; 
+    margin: 10% auto 0px auto;
+}
+th{
+    text-align: center;
+    padding: 14px 0px 14px 14px;
+    border-bottom: 2px solid #373737;
+}
+td{
+    text-align: center;
+    padding: 14px 0px 14px 14px;
+    border-bottom: 2px solid #373737;
+}
+button{
+    background-color: #ff4500;
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    border:NONE;
+    margin-right: NONE;
+    border-radius: 4px;
+}
+button:hover{
+    cursor:pointer;
+}
+#delete:hover{
+    background-color: #ff440099;
+}
+#update{
+    background-color: #4169e1;
+}
+#update:hover{
+    background-color: #4169e196;
+}
